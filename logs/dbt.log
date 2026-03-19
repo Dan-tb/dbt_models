@@ -1,0 +1,57 @@
+[0m21:37:13.273474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d28440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109bb39d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109bb3890>]}
+
+
+============================== 21:37:13.275805 | 5a163ad1-aa9c-4c8b-9a7d-e56d0d48d9d4 ==============================
+[0m21:37:13.275805 [info ] [MainThread]: Running with dbt=1.11.6
+[0m21:37:13.276050 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'invocation_command': 'dbt init', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'introspect': 'True', 'use_experimental_parser': 'False', 'printer_width': '80', 'profiles_dir': '/Users/dannieai/.dbt', 'log_cache_events': 'False', 'write_json': 'True', 'log_path': 'logs', 'target_path': 'None', 'log_format': 'default', 'empty': 'None', 'debug': 'False', 'quiet': 'False', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'no_print': 'None'}
+[0m21:39:32.836307 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/dbt/include/starter_project
+[0m21:39:32.850025 [info ] [MainThread]: 
+Your new dbt project "dbx_learn_dev" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:39:32.850679 [info ] [MainThread]: Setting up your profile.
+[0m21:39:38.584052 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:39:38.584318 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:39:38.584421 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:48:09.071941 [info ] [MainThread]: Profile dbx_learn_dev written to /Users/dannieai/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:48:09.084999 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 655.8407, "process_in_blocks": "0", "process_kernel_time": 0.23875, "process_mem_max_rss": "227540992", "process_out_blocks": "0", "process_user_time": 0.982846}
+[0m21:48:09.088532 [debug] [MainThread]: Command `dbt init` succeeded at 21:48:09.088319 after 655.84 seconds
+[0m21:48:09.089618 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109bcde00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c029fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111b5ef10>]}
+[0m21:48:09.090245 [debug] [MainThread]: Flushing usage events
+[0m21:48:10.183849 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:48:20.387847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca88440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d9139d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d913890>]}
+
+
+============================== 21:48:20.390219 | c4a4969f-7743-4ff3-b3dc-6675688f8f3a ==============================
+[0m21:48:20.390219 [info ] [MainThread]: Running with dbt=1.11.6
+[0m21:48:20.390453 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'log_cache_events': 'False', 'profiles_dir': '/Users/dannieai/.dbt', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'version_check': 'True', 'use_experimental_parser': 'False', 'write_json': 'True', 'static_parser': 'True', 'indirect_selection': 'eager', 'warn_error': 'None', 'empty': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'introspect': 'True', 'debug': 'False', 'quiet': 'False', 'printer_width': '80'}
+[0m21:48:20.398126 [info ] [MainThread]: dbt version: 1.11.6
+[0m21:48:20.398300 [info ] [MainThread]: python version: 3.13.11
+[0m21:48:20.398405 [info ] [MainThread]: python path: /usr/local/bin/python3
+[0m21:48:20.398494 [info ] [MainThread]: os info: macOS-26.3.1-arm64-arm-64bit-Mach-O
+[0m21:48:20.765474 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:48:20.765694 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:48:20.765800 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:48:21.097798 [info ] [MainThread]: Using profiles dir at /Users/dannieai/.dbt
+[0m21:48:21.098017 [info ] [MainThread]: Using profiles.yml file at /Users/dannieai/.dbt/profiles.yml
+[0m21:48:21.098140 [info ] [MainThread]: Using dbt_project.yml file at /Users/dannieai/Documents/dev/dbt_project.yml
+[0m21:48:21.098263 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:48:21.101858 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.74569064, "process_in_blocks": "0", "process_kernel_time": 0.166443, "process_mem_max_rss": "234782720", "process_out_blocks": "0", "process_user_time": 0.965756}
+[0m21:48:21.102092 [debug] [MainThread]: Command `dbt debug` failed at 21:48:21.102058 after 0.75 seconds
+[0m21:48:21.102212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11588e060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ffa1370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11587b680>]}
+[0m21:48:21.102339 [debug] [MainThread]: Flushing usage events
+[0m21:48:22.018845 [debug] [MainThread]: An error was encountered while trying to flush usage events
