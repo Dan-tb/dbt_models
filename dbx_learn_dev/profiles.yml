@@ -1,0 +1,12 @@
+dbx_learn_dev:
+  outputs:
+    dev:
+      catalog: dev_cicd
+      host: dbc-9771f9f2-a487.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/b073d4fba4461d01
+      schema: default
+      threads: 1
+      token: "{{ env_var('DBT_DATABRICKS_TOKEN') }}"
+      type: databricks
+  target: dev
+
