@@ -16,8 +16,8 @@ jobs:
     name: "dbt parse"
     runs-on: ubuntu-latest
     env:
-      DBT_DATABRICKS_HOST: ${{ secrets.DBT_DATABRICKS_HOST }}
-      DBT_DATABRICKS_HTTP_PATH: ${{ secrets.DBT_DATABRICKS_HTTP_PATH }}
+      DBT_DATABRICKS_HOST: ${{ variables.DBT_DATABRICKS_HOST }}
+      DBT_DATABRICKS_HTTP_PATH: ${{ variables.DBT_DATABRICKS_HTTP_PATH }}
       DBT_DATABRICKS_TOKEN: ${{ secrets.DBT_DATABRICKS_TOKEN }}
     outputs:
       model_count: ${{ steps.parse.outputs.model_count }}
